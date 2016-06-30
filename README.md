@@ -9,8 +9,7 @@ __weak typeof(self) weakSelf = self;
 ZYInputAlertView *alertView = [ZYInputAlertView alertView];
 alertView.placeholder = @"输入开心的事儿···";
 [alertView confirmBtnClickBlock:^(NSString *inputString) {
-[alertView dismiss];
-weakSelf.inputLabel.text = inputString;
+  weakSelf.inputLabel.text = inputString;
 }];
 [alertView show];
 ```
