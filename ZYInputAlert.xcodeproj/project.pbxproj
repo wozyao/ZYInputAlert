@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4BEAE71D25094B00F6EB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEAE61D25094B00F6EB82 /* main.m */; };
+		4F4BEAEA1D25094B00F6EB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEAE91D25094B00F6EB82 /* AppDelegate.m */; };
+		4F4BEAED1D25094B00F6EB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEAEC1D25094B00F6EB82 /* ViewController.m */; };
+		4F4BEAF01D25094B00F6EB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4BEAEE1D25094B00F6EB82 /* Main.storyboard */; };
+		4F4BEAF21D25094B00F6EB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4BEAF11D25094B00F6EB82 /* Assets.xcassets */; };
+		4F4BEAF51D25094B00F6EB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4BEAF31D25094B00F6EB82 /* LaunchScreen.storyboard */; };
+		4F4BEB001D25094B00F6EB82 /* ZYInputAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEAFF1D25094B00F6EB82 /* ZYInputAlertTests.m */; };
+		4F4BEB0B1D25094B00F6EB82 /* ZYInputAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEB0A1D25094B00F6EB82 /* ZYInputAlertUITests.m */; };
+		4F4BEB1F1D2509A700F6EB82 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEB1B1D2509A700F6EB82 /* UITextView+Placeholder.m */; };
+		4F4BEB201D2509A700F6EB82 /* ZYInputAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BEB1D1D2509A700F6EB82 /* ZYInputAlertView.m */; };
+		4F4BEB211D2509A700F6EB82 /* ZYInputAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4BEB1E1D2509A700F6EB82 /* ZYInputAlertView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F4BEAFC1D25094B00F6EB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4BEADA1D25094B00F6EB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4BEAE11D25094B00F6EB82;
+			remoteInfo = ZYInputAlert;
+		};
+		4F4BEB071D25094B00F6EB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4BEADA1D25094B00F6EB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4BEAE11D25094B00F6EB82;
+			remoteInfo = ZYInputAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4BEAE21D25094B00F6EB82 /* ZYInputAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYInputAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4BEAE61D25094B00F6EB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F4BEAE81D25094B00F6EB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F4BEAE91D25094B00F6EB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F4BEAEB1D25094B00F6EB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F4BEAEC1D25094B00F6EB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F4BEAEF1D25094B00F6EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F4BEAF11D25094B00F6EB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4BEAF41D25094B00F6EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F4BEAF61D25094B00F6EB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4BEAFB1D25094B00F6EB82 /* ZYInputAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYInputAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4BEAFF1D25094B00F6EB82 /* ZYInputAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYInputAlertTests.m; sourceTree = "<group>"; };
+		4F4BEB011D25094B00F6EB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4BEB061D25094B00F6EB82 /* ZYInputAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYInputAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4BEB0A1D25094B00F6EB82 /* ZYInputAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYInputAlertUITests.m; sourceTree = "<group>"; };
+		4F4BEB0C1D25094B00F6EB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4BEB1A1D2509A700F6EB82 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		4F4BEB1B1D2509A700F6EB82 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		4F4BEB1C1D2509A700F6EB82 /* ZYInputAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYInputAlertView.h; sourceTree = "<group>"; };
+		4F4BEB1D1D2509A700F6EB82 /* ZYInputAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYInputAlertView.m; sourceTree = "<group>"; };
+		4F4BEB1E1D2509A700F6EB82 /* ZYInputAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYInputAlertView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4BEADF1D25094B00F6EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4BEAF81D25094B00F6EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4BEB031D25094B00F6EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4BEAD91D25094B00F6EB82 = {
+			isa = PBXGroup;
+			children = (
+				4F4BEAE41D25094B00F6EB82 /* ZYInputAlert */,
+				4F4BEAFE1D25094B00F6EB82 /* ZYInputAlertTests */,
+				4F4BEB091D25094B00F6EB82 /* ZYInputAlertUITests */,
+				4F4BEAE31D25094B00F6EB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4BEAE31D25094B00F6EB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEAE21D25094B00F6EB82 /* ZYInputAlert.app */,
+				4F4BEAFB1D25094B00F6EB82 /* ZYInputAlertTests.xctest */,
+				4F4BEB061D25094B00F6EB82 /* ZYInputAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4BEAE41D25094B00F6EB82 /* ZYInputAlert */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEAE81D25094B00F6EB82 /* AppDelegate.h */,
+				4F4BEAE91D25094B00F6EB82 /* AppDelegate.m */,
+				4F4BEAEB1D25094B00F6EB82 /* ViewController.h */,
+				4F4BEAEC1D25094B00F6EB82 /* ViewController.m */,
+				4F4BEAEE1D25094B00F6EB82 /* Main.storyboard */,
+				4F4BEAF11D25094B00F6EB82 /* Assets.xcassets */,
+				4F4BEAF31D25094B00F6EB82 /* LaunchScreen.storyboard */,
+				4F4BEAF61D25094B00F6EB82 /* Info.plist */,
+				4F4BEAE51D25094B00F6EB82 /* Supporting Files */,
+			);
+			path = ZYInputAlert;
+			sourceTree = "<group>";
+		};
+		4F4BEAE51D25094B00F6EB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEB181D2509A700F6EB82 /* ZYInputAlert */,
+				4F4BEAE61D25094B00F6EB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F4BEAFE1D25094B00F6EB82 /* ZYInputAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEAFF1D25094B00F6EB82 /* ZYInputAlertTests.m */,
+				4F4BEB011D25094B00F6EB82 /* Info.plist */,
+			);
+			path = ZYInputAlertTests;
+			sourceTree = "<group>";
+		};
+		4F4BEB091D25094B00F6EB82 /* ZYInputAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEB0A1D25094B00F6EB82 /* ZYInputAlertUITests.m */,
+				4F4BEB0C1D25094B00F6EB82 /* Info.plist */,
+			);
+			path = ZYInputAlertUITests;
+			sourceTree = "<group>";
+		};
+		4F4BEB181D2509A700F6EB82 /* ZYInputAlert */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEB191D2509A700F6EB82 /* UITextView */,
+				4F4BEB1C1D2509A700F6EB82 /* ZYInputAlertView.h */,
+				4F4BEB1D1D2509A700F6EB82 /* ZYInputAlertView.m */,
+				4F4BEB1E1D2509A700F6EB82 /* ZYInputAlertView.xib */,
+			);
+			path = ZYInputAlert;
+			sourceTree = "<group>";
+		};
+		4F4BEB191D2509A700F6EB82 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BEB1A1D2509A700F6EB82 /* UITextView+Placeholder.h */,
+				4F4BEB1B1D2509A700F6EB82 /* UITextView+Placeholder.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4BEAE11D25094B00F6EB82 /* ZYInputAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4BEB0F1D25094B00F6EB82 /* Build configuration list for PBXNativeTarget "ZYInputAlert" */;
+			buildPhases = (
+				4F4BEADE1D25094B00F6EB82 /* Sources */,
+				4F4BEADF1D25094B00F6EB82 /* Frameworks */,
+				4F4BEAE01D25094B00F6EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYInputAlert;
+			productName = ZYInputAlert;
+			productReference = 4F4BEAE21D25094B00F6EB82 /* ZYInputAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F4BEAFA1D25094B00F6EB82 /* ZYInputAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4BEB121D25094B00F6EB82 /* Build configuration list for PBXNativeTarget "ZYInputAlertTests" */;
+			buildPhases = (
+				4F4BEAF71D25094B00F6EB82 /* Sources */,
+				4F4BEAF81D25094B00F6EB82 /* Frameworks */,
+				4F4BEAF91D25094B00F6EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4BEAFD1D25094B00F6EB82 /* PBXTargetDependency */,
+			);
+			name = ZYInputAlertTests;
+			productName = ZYInputAlertTests;
+			productReference = 4F4BEAFB1D25094B00F6EB82 /* ZYInputAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F4BEB051D25094B00F6EB82 /* ZYInputAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4BEB151D25094B00F6EB82 /* Build configuration list for PBXNativeTarget "ZYInputAlertUITests" */;
+			buildPhases = (
+				4F4BEB021D25094B00F6EB82 /* Sources */,
+				4F4BEB031D25094B00F6EB82 /* Frameworks */,
+				4F4BEB041D25094B00F6EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4BEB081D25094B00F6EB82 /* PBXTargetDependency */,
+			);
+			name = ZYInputAlertUITests;
+			productName = ZYInputAlertUITests;
+			productReference = 4F4BEB061D25094B00F6EB82 /* ZYInputAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4BEADA1D25094B00F6EB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wozyao;
+				TargetAttributes = {
+					4F4BEAE11D25094B00F6EB82 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F4BEAFA1D25094B00F6EB82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F4BEAE11D25094B00F6EB82;
+					};
+					4F4BEB051D25094B00F6EB82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F4BEAE11D25094B00F6EB82;
+					};
+				};
+			};
+			buildConfigurationList = 4F4BEADD1D25094B00F6EB82 /* Build configuration list for PBXProject "ZYInputAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4BEAD91D25094B00F6EB82;
+			productRefGroup = 4F4BEAE31D25094B00F6EB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4BEAE11D25094B00F6EB82 /* ZYInputAlert */,
+				4F4BEAFA1D25094B00F6EB82 /* ZYInputAlertTests */,
+				4F4BEB051D25094B00F6EB82 /* ZYInputAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4BEAE01D25094B00F6EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4BEAF51D25094B00F6EB82 /* LaunchScreen.storyboard in Resources */,
+				4F4BEAF21D25094B00F6EB82 /* Assets.xcassets in Resources */,
+				4F4BEAF01D25094B00F6EB82 /* Main.storyboard in Resources */,
+				4F4BEB211D2509A700F6EB82 /* ZYInputAlertView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4BEAF91D25094B00F6EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4BEB041D25094B00F6EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4BEADE1D25094B00F6EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4BEAED1D25094B00F6EB82 /* ViewController.m in Sources */,
+				4F4BEB201D2509A700F6EB82 /* ZYInputAlertView.m in Sources */,
+				4F4BEAEA1D25094B00F6EB82 /* AppDelegate.m in Sources */,
+				4F4BEAE71D25094B00F6EB82 /* main.m in Sources */,
+				4F4BEB1F1D2509A700F6EB82 /* UITextView+Placeholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4BEAF71D25094B00F6EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4BEB001D25094B00F6EB82 /* ZYInputAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4BEB021D25094B00F6EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4BEB0B1D25094B00F6EB82 /* ZYInputAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F4BEAFD1D25094B00F6EB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4BEAE11D25094B00F6EB82 /* ZYInputAlert */;
+			targetProxy = 4F4BEAFC1D25094B00F6EB82 /* PBXContainerItemProxy */;
+		};
+		4F4BEB081D25094B00F6EB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4BEAE11D25094B00F6EB82 /* ZYInputAlert */;
+			targetProxy = 4F4BEB071D25094B00F6EB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F4BEAEE1D25094B00F6EB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4BEAEF1D25094B00F6EB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F4BEAF31D25094B00F6EB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4BEAF41D25094B00F6EB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F4BEB0D1D25094B00F6EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4BEB0E1D25094B00F6EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4BEB101D25094B00F6EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYInputAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYInputAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F4BEB111D25094B00F6EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYInputAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYInputAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F4BEB131D25094B00F6EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYInputAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYInputAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYInputAlert.app/ZYInputAlert";
+			};
+			name = Debug;
+		};
+		4F4BEB141D25094B00F6EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYInputAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYInputAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYInputAlert.app/ZYInputAlert";
+			};
+			name = Release;
+		};
+		4F4BEB161D25094B00F6EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYInputAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYInputAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYInputAlert;
+			};
+			name = Debug;
+		};
+		4F4BEB171D25094B00F6EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYInputAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYInputAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYInputAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4BEADD1D25094B00F6EB82 /* Build configuration list for PBXProject "ZYInputAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4BEB0D1D25094B00F6EB82 /* Debug */,
+				4F4BEB0E1D25094B00F6EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4BEB0F1D25094B00F6EB82 /* Build configuration list for PBXNativeTarget "ZYInputAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4BEB101D25094B00F6EB82 /* Debug */,
+				4F4BEB111D25094B00F6EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4BEB121D25094B00F6EB82 /* Build configuration list for PBXNativeTarget "ZYInputAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4BEB131D25094B00F6EB82 /* Debug */,
+				4F4BEB141D25094B00F6EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4BEB151D25094B00F6EB82 /* Build configuration list for PBXNativeTarget "ZYInputAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4BEB161D25094B00F6EB82 /* Debug */,
+				4F4BEB171D25094B00F6EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F4BEADA1D25094B00F6EB82 /* Project object */;
+}
