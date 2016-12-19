@@ -23,11 +23,13 @@
 
 + (instancetype)alertView
 {
-    return [[[NSBundle mainBundle] loadNibNamed:@"ZYInputAlertView" owner:nil options:nil] lastObject];
+    return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] lastObject];
 }
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
+    
     [self setBtnDisabled];
     [self setCornerRadius:self];
     [self setCornerRadius:self.inputTextView];
@@ -148,7 +150,7 @@
 
 - (void)dealloc
 {
-    // 移除监听者
+     // 移除监听者
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
